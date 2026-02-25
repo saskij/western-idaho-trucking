@@ -7,10 +7,12 @@ export default function Footer() {
             <div className="container footer__grid">
                 <div className="footer__col">
                     <div className="logo logo--white mb-4">
-                        <div className="logo__text">
-                            <span className="logo__title">Western Idaho</span>
-                            <span className="logo__subtitle">Trucking LLC</span>
-                        </div>
+                        <img
+                            src="/western-idaho-trucking/images/logo.png"
+                            alt="Western Idaho Trucking LLC Logo"
+                            className="logo__img"
+                            style={{ filter: 'brightness(0) invert(1)', width: '180px' }}
+                        />
                     </div>
                     <p className="footer__text">
                         Premium freight and logistics solutions across the Northwest and beyond. Family owned, family driven.
