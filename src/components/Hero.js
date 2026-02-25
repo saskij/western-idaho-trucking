@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <section className="hero">
             <div className="hero__bg">
-                <img src="/images/hero-bg.png" alt="Semi truck driving through Idaho highway at sunset" />
+                <img src="/western-idaho-trucking/images/hero-bg.png" alt="Semi truck driving through Idaho highway at sunset" />
             </div>
             <div className="hero__overlay"></div>
             <div className="container hero__content">
