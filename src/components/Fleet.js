@@ -13,7 +13,7 @@ export default function Fleet() {
         <section className="fleet section bg-dark text-white">
             <div className="container fleet__grid">
                 <Reveal className="fleet__image-block">
-                    <img src="/images/fleet-lineup.png" alt="Western Idaho Trucking Fleet" className="fleet__img" />
+                    <img src="/western-idaho-trucking/images/fleet-lineup.png" alt="Western Idaho Trucking Fleet" className="fleet__img" />
                 </Reveal>
                 <div className="fleet__content">
                     <Reveal>

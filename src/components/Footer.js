@@ -6,14 +6,23 @@ export default function Footer() {
         <footer className="footer bg-dark text-white">
             <div className="container footer__grid">
                 <div className="footer__col">
-                    <div className="logo logo--white mb-4">
+                    <Link
+                        href="/"
+                        className="logo logo--white mb-4"
+                        onClick={(e) => {
+                            if (window.location.pathname === '/' || window.location.pathname === '/western-idaho-trucking/') {
+                                e.preventDefault();
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }
+                        }}
+                    >
                         <img
                             src="/western-idaho-trucking/images/logo.png"
                             alt="Western Idaho Trucking LLC Logo"
                             className="logo__img"
-                            style={{ filter: 'brightness(0) invert(1)', width: '180px' }}
+                            style={{ width: '180px' }}
                         />
-                    </div>
+                    </Link>
                     <p className="footer__text">
                         Premium freight and logistics solutions across the Northwest and beyond. Family owned, family driven.
                     </p>

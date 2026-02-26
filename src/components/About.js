@@ -19,7 +19,7 @@ export default function About() {
                     <a href="/coming-soon" className="btn btn--primary">Learn More About Us</a>
                 </Reveal>
                 <Reveal className="about__image-block">
-                    <img src="/images/about-fleet.png" alt="Western Idaho Trucking Fleet Yard" className="about__img" />
+                    <img src="/western-idaho-trucking/images/about-fleet.png" alt="Western Idaho Trucking Fleet Yard" className="about__img" />
                 </Reveal>
             </div>
         </section>

@@ -17,7 +17,16 @@ export default function Header() {
     return (
         <header className={`header ${scrolled ? 'header--scrolled' : ''}`} id="header">
             <div className="container header__content">
-                <Link href="/" className="logo">
+                <Link
+                    href="/"
+                    className="logo"
+                    onClick={(e) => {
+                        if (window.location.pathname === '/' || window.location.pathname === '/western-idaho-trucking/') {
+                            e.preventDefault();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }
+                    }}
+                >
                     <img
                         src="/western-idaho-trucking/images/logo.png"
                         alt="Western Idaho Trucking LLC Logo"
